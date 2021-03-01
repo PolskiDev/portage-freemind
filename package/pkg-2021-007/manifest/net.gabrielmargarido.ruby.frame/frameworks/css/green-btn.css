@@ -1,0 +1,29 @@
+/*
+  CSS 3 button created with CSS 3 Button Generator
+  Integration with HTML++ by: Gabriel Margarido
+
+  Current date: November 2nd 2020
+
+  Button created with:
+  https://www.cssportal.com/css3-button-generator
+*/
+
+/*Adaptative Box*/
+.greenBox {
+  font-family: arial;
+  font-weight: bold;
+  color: #FFFFFF !important;
+  font-size: 25px; /*DEFINES THE TEXT SIZE*/
+  text-shadow: 2px 1px 0px #000000;
+  box-shadow: 1px 1px 10px #000000;
+  padding: 13px 30px;
+  border-radius: 10px;
+  border: 3px inset #0B5726;
+  background: #1FFF71;
+  background: linear-gradient(to top, #1FFF71, #08451F);
+}
+.greenBox:hover {
+  color: #FFFFFF !important;
+  background: #3DFFFF;
+  background: linear-gradient(to top, #3DFFFF, #154543);
+}
